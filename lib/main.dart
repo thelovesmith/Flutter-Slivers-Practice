@@ -58,6 +58,8 @@ class _MyHomePageState extends State<MyHomePage> {
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
     return Scaffold(
+      // This is the drawer that slides out at has a scrolling list 
+      //Look into and endDrawer//
       drawer: Drawer(
         semanticLabel: 'Islands',
         elevation: 16,
